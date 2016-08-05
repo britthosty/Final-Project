@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Blog Posts</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Join the discussion</h2>
+  <p>Please feel free to post your comments and stories below to discuss and share.</p>
+  <form role="form">
+    <div class="form-group">
+      <label for="post">Your Post:</label>
+      <textarea class="form-control" rows="5" id="post"></textarea>
+        <div class="form-group">
+          <label for="comment">Comment on this post:</label>
+          <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
