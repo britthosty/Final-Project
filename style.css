@@ -1,0 +1,55 @@
+a.squiffy-link
+{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
+a.squiffy-link.disabled
+{
+    text-decoration: inherit;
+    color: inherit !important;
+    cursor: inherit;
+}
+
+a.squiffy-header-link
+{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
+div#squiffy-container
+{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: black;
+	border: 2px solid red;
+    border-radius: 2px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+div#squiffy-header      //Restart button
+{
+    font-size: 14px;
+	color: white;
+    text-align: right;
+}
+
+div#squiffy
+{
+    font-size: 18px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+margin-top: 16px; margin-bottom: 16px;
+}
+body{
+	background-color: black;
+	color: white;
+}
