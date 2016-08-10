@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Skeleton</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<!--STUFF OUT OF THE TEXT ADVENTURE HEAD-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<script src="jquery.min.js"></script>
+	<script src="story.js" charset="UTF-8"></script>
+	<script>
+		jQuery(function($){
+			$('#squiffy').squiffy();
+			var restart = function () {
+				$('#squiffy').squiffy('restart');
+			};
+			$('#restart').click(restart);
+			$('#restart').keypress(function (e) {
+				if (e.which !== 13) return;
+				restart();
+			});
+		});
+	</script>
+	<link rel="stylesheet" href="style.css"/>
+  
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Anxietea		
+				<!--TEA IMAGE HERE-->
+			</h1>
+			<p>
+				<!--WORDS-->
+			</p>
+		</div>
+
+		<!--MAKE THE TAB BAR HERE-->
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+			<li><a data-toggle="tab" href="#menu1">Tab1</a></li>
+			<li><a data-toggle="tab" href="#menu2">Tab2</a></li>
+			<li><a data-toggle="tab" href="#menu3">Text Adventure</a></li>
+			
+			<!--ADD ANY TABS HERE-->
+		</ul>
+
+		<div class="tab-content">
+			<div id="home" class="tab-pane fade in active">
+				<div class="container">
+					<!--STUFF FOR Home-->
+					<h3>This is the Home page.</h3>
+
+				</div>
+			</div>
+	
+			<div id="menu1" class="tab-pane fade">
+				<div class="container"> 
+					<!--STUFF FOR TAB 2-->
+					<h3>This is tab 2.</h3>
+				
+				</div>
+			</div>
+			
+			<div id="menu2" class="tab-pane fade">
+				<div class="container">
+					<!--STUFF FOR TAB 3-->
+					<h3>This is tab 3.</h3>
+
+    
+				</div>
+			</div>
+			
+			<div id="menu3" class="tab-pane fade">
+				<div class="container">
+					<!--STUFF FOR TAB 4-->
+					<h3>This is the Text Adventure.</h3>
+					<!--THE TEXT ADVENTURE BODY-->
+					<div id="squiffy-container">
+						<div id="squiffy-header">
+							<a class="squiffy-header-link" id="restart" tabindex="0">Restart</a>
+						</div>
+						<div id="squiffy">
+						</div>
+					</div>
+
+    
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>
+
