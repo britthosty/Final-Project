@@ -21,8 +21,8 @@ a.squiffy-header-link
 
 div#squiffy-container 
 {
-    max-width: 700px;
-    margin-left: auto;
+    max-width: 1000px;
+    margin-left: 55px;
     margin-right: auto;
 	background-color: #808080;
 	border: 2px solid #800000;
@@ -59,9 +59,51 @@ hr {
 
 body
 {
-	background-color: #f2f2f2;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: #f2f7ee;
+}
+h2
+{
+	color:#003366;
+}
+h3
+{
+	color:#003366;
+}
+.well
+{
+	margin-left: -.5cm;
+	margin-right: auto;
+	background-color: white;
 }
 
 
+.nav-tabs > li > a{
+	margin-top:-.5cm;
+	border: medium none;
+	color: white;
+
+}
+.nav-tabs > li> a:focus{
+	background-color: #e3eef7;
+}
+
+.nav-tabs > li > a:hover{
+	background-color: #f2f7ee !important;
+    border: medium none;
+    
+    color:black;
+}
+iframe
+{
+	margin-left: -.5cm;
+	margin-right: auto;
+	border-radius: 7px;
+	
+}
+p{
+	font-size: 18px;
+}
 
 
